@@ -21,14 +21,14 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 WiFiClient wifiClient;
 dht11 DHT11;
 
-const char *ssid = "TomatoSay";
-const char *password = "rerehelpf";
+const char *ssid = "setWifiName";
+const char *password = "setWifiPass";
 int slide = 0;
 int presState = 0;
  
 // set location and API key
-String Location = "Radekhiv, Ukraine";
-String API_Key = "0efdd3ecd2a008f997522da842192aa0";
+String Location = "setCity, setCountry";
+String API_Key = "setApiKey";
 int netStatus = 1;
 
 
